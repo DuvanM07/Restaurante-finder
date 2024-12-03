@@ -1,3 +1,14 @@
+.header {
+    background-color: blueviolet;
+}
+
+.main {
+    background-color: brown;
+}
+
+.footer {
+    background-color: pink;
+}
 /* Mobile First -- 0px --> 566px */
 header {
     background-color: aqua;
@@ -22,37 +33,25 @@ header {
 }
 /* 1200 --> 1399 */
 @media ( min-width: 1200px ) {
-    .header {
-        background-color: red;
-    }
+   
 }
 /** 1400 --> 1599 */
 @media ( min-width: 1400px ) {
-    .header {
-        background-color: rgb(42, 30, 210);
-    }
+    
 }
 /** 1600 --> 1919 */
 @media ( min-width: 1600px ) {
-    .header {
-        background-color: orchid;
-    }
+    
 }
 /** 1920 --> 2159 */
 @media ( min-width: 1920px ) {
-    .header {
-        background-color: blueviolet;
-    }
+    
 }
 /** 2160 --> 2459 */
 @media ( min-width: 2160px ) {
-    .header {
-        background-color: blue;
-    }
+    
 }
 /** 2160 --> more */
 @media ( min-width: 2160px ) {
-    .header {
-        background-color: blue;
-    }
+    
 }
