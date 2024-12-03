@@ -4,6 +4,18 @@
 .main {
     background-color: brown;
 }
+.filter{
+  background-color: yellowgreen;
+}
+.main-filter{
+    background-color: antiquewhite;
+}
+.main-wrapper {
+    display: flex;
+}
+.main-content{
+    background-color: blueviolet;
+}
 .footer {
     background-color: orange;
 }
@@ -16,8 +28,15 @@
     margin: 0 auto;
     padding: 0 8px;
     box-sizing: border-box;    
-}
 
+}
+.container-fluid{
+    border: 1px dotted blue;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box; 
+}
 /** 567px --> 767px */
 @media ( min-width: 567px ) {
     .container {
