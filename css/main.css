@@ -5,6 +5,7 @@
 html {
     /** Restale vlor de 1rem a base 10, es decir: 1rem = 1opx */
     font-size: var( --overall-font-size);
+    box-sizing: border-box;
 }
 body {
     font-size: 1.6rem;
@@ -15,11 +16,38 @@ body {
 .main {
     background-color: brown;
 }
-.filter{
-  background-color: yellowgreen;
+.main-banner {
+    position: relative;
 }
-.main-filter{
-    background-color: antiquewhite;
+.banner.image {
+    position: relative;
+}
+.banner-search {
+    /* border: 1px solid aqua; */
+    height: 30.5rem;
+    position: absolute;
+    top: 0;
+    display: flex;
+    left: 0;
+    width: 100vw;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-sizing: border-box;
+}
+.input-search {
+    width: 38.8rem;
+    height: 3rem;
+    padding: .8rem 1.5rem;
+    border-radius: .7rem;
+}
+.banner-image img {
+    width: 30.5rem;
+    max-width: 100%;
+    object-fit: cover;
+    width: 100vw;
 }
 .main-wrapper { 
     display: flex;
@@ -27,6 +55,12 @@ body {
 }
 .main-container {
     order: -1;
+}
+.filter{
+  background-color: yellowgreen;
+}
+.main-filter{
+    background-color: antiquewhite;
 }
 .main-content{
     background-color: blueviolet;
@@ -125,4 +159,16 @@ body {
         max-width: 192rem;
         padding: 0 8rem;
     }
+}
+
+/*.banner-search {
+    border: solid aqua;
+    height: 30.5rem;
+    position: absolute;
+    top: 0;
+    display: flex
+;
+    left: 0;
+    width: 100vw;
+    max-width: 100%;
 }
